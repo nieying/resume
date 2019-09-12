@@ -5260,6 +5260,7 @@ Created using IcoMoon - icomoon.io
   left: 0;
   background-size: cover;
   background-position: center center;
+
 }
 
 .section-full-page .footer nav>ul a:not(.btn),
@@ -7473,6 +7474,10 @@ Created using IcoMoon - icomoon.io
   left: 0;
   width: 100%;
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
 }
 
 .gallery .cc-porfolio-image figure figcaption>a {
@@ -7518,7 +7523,7 @@ Created using IcoMoon - icomoon.io
 }
 
 .gallery figure.cc-effect .h4 {
-  margin-top: 25%;
+  /* margin-top: 25%; */
   -webkit-transition: -webkit-transform 0.35s;
   transition: -webkit-transform 0.35s;
   transition: transform 0.35s;
